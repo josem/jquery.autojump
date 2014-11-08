@@ -1,3 +1,11 @@
+/*
+ *  jQuery AutoJump - v0.0.1
+ *  A jQuery plugin to jump between fields automatically after certain characters.
+ *  https://github.com/josem/autojum
+ *
+ *  Made by José M. Gilgado
+ *  Under MIT License
+ */
 // the semi-colon before function invocation is a safety net against concatenated
 // scripts and/or other plugins which may not be closed properly.
 ;(function ( $, window, document, undefined ) {
@@ -12,7 +20,7 @@
 		// minified (especially when both are regularly referenced in your plugin).
 
 		// Create the defaults once
-		var pluginName = "defaultPluginName",
+		var pluginName = "autoJump",
 				defaults = {
 				propertyName: "value"
 		};

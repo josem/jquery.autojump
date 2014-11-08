@@ -1,0 +1,36 @@
+{
+	"name": "autojump",
+	"title": "jQuery AutoJump",
+	"description": "A jQuery plugin to jump between fields automatically after certain characters.",
+	"keywords": [
+		"jquery",
+		"autojump",
+		"plugins"
+	],
+	"version": "0.0.1",
+	"author": {
+		"name": "José M. Gilgado",
+		"email": "jm.gilgado@gmail.com",
+		"url": "http://josemdev.com"
+	},
+	"maintainers": [
+		{
+		  "name": "José M. Gilgado",
+		  "email": "jm.gilgado@gmail.com",
+		  "url": "http://josemdev.com"
+		}
+	],
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "https://github.com/josem/autojump/blob/master/LICENSE"
+		}
+	],
+	"bugs": "https://github.com/josem/autojump/issues",
+	"homepage": "https://github.com/josem/autojum",
+	"docs": "https://github.com/josem/autojump#readme",
+	"download": "https://github.com/josem/autojump/archive/master.zip",
+	"dependencies": {
+		"jquery": ">=1.4"
+	}
+}

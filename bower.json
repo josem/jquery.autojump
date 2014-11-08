@@ -1,18 +1,18 @@
 {
-	"name": "jquery-boilerplate",
-	"version": "3.3.4",
-	"homepage": "http://jqueryboilerplate.com",
+	"name": "jquery-autojump",
+	"version": "0.0.1",
+	"homepage": "http://github.com/josem/autojump",
 	"authors": [
-		"Zeno Rocha <hi@zenorocha.com>"
+		"José M. Gilgado <jm.gilgado@gmail.com>"
 	],
-	"description": "A jump-start for jQuery plugins development.",
-	"main": "src/jquery.boilerplate.js",
+	"description": "A jQuery plugin to jump between fields automatically after certain characters.",
+	"main": "src/jquery.autojump.js",
 	"keywords": [
 		"jquery",
 		"plugin",
-		"boilerplate",
+		"autojump",
 		"jquery-plugin",
-		"jquery-boilerplate"
+		"jquery-autojump"
 	],
 	"license": "MIT"
 }
