@@ -1,15 +1,24 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>jQuery Boilerplate</title>
+		<title>jQuery AutoJump</title>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 		<script src="../src/jquery.autojump.js"></script>
 	</head>
 	<body>
 		<div id="element"></div>
+
+    <form action="#" method="post">
+      <label for="field1">Field 1, jump at 5</label>
+      <input type="text" name="field1" id="field1" value="" data-autojump="5"/>
+
+      <label for="field2">Field 2</label>
+      <input type="text" name="field2" id="field2" value="" />
+    </form>
+
 		<script>
 			$(function() {
-				$("#element").defaultPluginName({
+				$("input").autoJump({
 					propertyName: "a custom value"
 				});
 			});
