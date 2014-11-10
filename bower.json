@@ -1,6 +1,6 @@
 {
-	"name": "jquery-autojump",
-	"version": "0.0.1",
+	"name": "jquery.autojump",
+	"version": "0.1.0",
 	"homepage": "http://github.com/josem/jquery.autojump",
 	"authors": [
 		"José M. Gilgado <jm.gilgado@gmail.com>"

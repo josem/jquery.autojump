@@ -1,5 +1,5 @@
 /*
- *  jQuery AutoJump - v0.0.1
+ *  jQuery AutoJump - v0.1.0
  *  A jQuery plugin to jump between fields automatically after certain characters.
  *  https://github.com/josem/jquery.autojump
  *
