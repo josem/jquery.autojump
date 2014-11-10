@@ -10,7 +10,7 @@ Jump automatically after certain characters in an input or textarea to the next 
 
 ## Usage
 
-1. Include jQuery:
+1. Include jQuery (1.7+):
 
 	```html
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
