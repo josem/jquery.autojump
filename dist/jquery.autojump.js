@@ -1,7 +1,7 @@
 /*
  *  jQuery AutoJump - v0.0.1
  *  A jQuery plugin to jump between fields automatically after certain characters.
- *  https://github.com/josem/autojum
+ *  https://github.com/josem/jquery.autojump
  *
  *  Made by José M. Gilgado
  *  Under MIT License
@@ -19,19 +19,17 @@
 
 		$.extend(Plugin.prototype, {
 				init: function () {
-          $(this.element).on("keypress paste",this.controlKeyStrokes);
+          $(this.element).on("keypress paste", this.controlKeyStrokes);
 				},
 
-        controlKeyStrokes: function (event) {
+        controlKeyStrokes: function () {
           var currentLength = $(this).val().length;
           var maxLength = $(this).data("autojump");
 
-          if (event.type === "keypress") {
-            maxLength -= 1;
-          }
-
-          if (currentLength >= maxLength) {
-            $(this).nextAll("input,textarea").focus();
+          if (currentLength === maxLength - 1) {
+            $(this).one("keyup", function() {
+              $(this).nextAll("input,textarea").first().focus();
+            });
           }
         }
 		});

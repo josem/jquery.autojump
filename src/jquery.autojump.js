@@ -11,19 +11,17 @@
 
 		$.extend(Plugin.prototype, {
 				init: function () {
-          $(this.element).on("keypress paste",this.controlKeyStrokes);
+          $(this.element).on("keypress paste", this.controlKeyStrokes);
 				},
 
-        controlKeyStrokes: function (event) {
+        controlKeyStrokes: function () {
           var currentLength = $(this).val().length;
           var maxLength = $(this).data("autojump");
 
-          if (event.type === "keypress") {
-            maxLength -= 1;
-          }
-
-          if (currentLength >= maxLength) {
-            $(this).nextAll("input,textarea").focus();
+          if (currentLength === maxLength - 1) {
+            $(this).one("keyup", function() {
+              $(this).nextAll("input,textarea").first().focus();
+            });
           }
         }
 		});
