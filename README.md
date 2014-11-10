@@ -1,6 +1,4 @@
-# jQuery AutoJump
-
-### jQuery plugin to autojump after certain number of characters in inputs
+## jQuery AutoJump
 
 Jump automatically after certain characters in an input or textarea to the next field.
 
