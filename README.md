@@ -21,7 +21,7 @@ Jump automatically after certain characters in an input or textarea to the next 
 	```html
 	<script src="dist/jquery.autojump.min.js"></script>
 	```
-3. Add the data attribute `autojump` with the number of characters you expect in the input and textareas fields you want.
+3. Set the data attribute `autojump` to the number of characters you expect in your inputs and textareas.
 
 	```html
   <!-- It will jump to the next field after 5 characters -->
