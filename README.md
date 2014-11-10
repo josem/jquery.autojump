@@ -5,6 +5,9 @@ Jump automatically after certain characters in an input or textarea to the next 
 ## Demo
 ![Demo](/demo/demo.gif)
 
+## Download
+[Download latest version (0.1.0)](https://github.com/josem/jquery.autojump/archive/v0.1.0.zip)
+
 ## Usage
 
 1. Include jQuery:
@@ -36,8 +39,8 @@ Please, create an issue [here](https://github.com/josem/jquery.autojump/issues).
 
 ## History
 
-Check [Releases](https://github.com/josem/jquery.autojump/releases) for detailed changelog.
+Check [releases](https://github.com/josem/jquery.autojump/releases) for detailed changelog.
 
 ## License
 
-[MIT License](https://github.com/josem/jquery.autojump/blob/master/LICENSE) © José M. Gilgado
+[MIT License](https://github.com/josem/jquery.autojump/blob/master/LICENSE)
