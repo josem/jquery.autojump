@@ -3,7 +3,7 @@
 Jump automatically after certain characters in an input or textarea to the next field.
 
 ## Demo
-![Demo](/demo/demo.gif “Demo”)
+![Demo](/demo/demo.gif)
 
 ## Usage
 
