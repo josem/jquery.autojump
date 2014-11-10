@@ -23,13 +23,13 @@
 	"licenses": [
 		{
 			"type": "MIT",
-			"url": "https://github.com/josem/autojump/blob/master/LICENSE"
+			"url": "https://github.com/josem/jquery.autojump/blob/master/LICENSE"
 		}
 	],
-	"bugs": "https://github.com/josem/autojump/issues",
-	"homepage": "https://github.com/josem/autojum",
-	"docs": "https://github.com/josem/autojump#readme",
-	"download": "https://github.com/josem/autojump/archive/master.zip",
+	"bugs": "https://github.com/josem/jquery.autojump/issues",
+	"homepage": "https://github.com/josem/jquery.autojump",
+	"docs": "https://github.com/josem/jquery.autojump#readme",
+	"download": "https://github.com/josem/jquery.autojump/archive/master.zip",
 	"dependencies": {
 		"jquery": ">=1.4"
 	}
