@@ -4,9 +4,26 @@
 		<title>jQuery AutoJump</title>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 		<script src="../src/jquery.autojump.js"></script>
+
+    <!-- You can ignore this section -->
+    <style type="text/css">
+      body {
+        margin-left: 20px;
+      }
+
+      h1 {
+        font-size: 25px;
+        color: #4284F4;
+      }
+
+      label {
+        vertical-align: top;
+        margin-right: 10px;
+      }
+    </style>
 	</head>
 	<body>
-    <h1>jQuery AutoJump</h1>
+    <h1>AutoJump Demo</h1>
 
     <form action="#" method="post">
       <label for="field1">Jumps after 3</label>
@@ -21,6 +38,8 @@
 
       <label for="field3">Last one, jumps after 2</label>
       <input type="text" name="field3" id="field3" data-autojump="2"/>
+      <br>
+      <br>
 
       <input type="submit" value="Submit">
     </form>
