@@ -41,6 +41,9 @@ Please, create an issue [here](https://github.com/josem/jquery.autojump/issues).
 
 Check [releases](https://github.com/josem/jquery.autojump/releases) for detailed changelog.
 
+## Credits
+I have used the great [jquery-boilerplate](https://github.com/jquery-boilerplate/jquery-boilerplate) to create this project.
+
 ## License
 
 [MIT License](https://github.com/josem/jquery.autojump/blob/master/LICENSE)
