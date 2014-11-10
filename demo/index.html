@@ -6,19 +6,28 @@
 		<script src="../src/jquery.autojump.js"></script>
 	</head>
 	<body>
-		<div id="element"></div>
+    <h1>jQuery AutoJump</h1>
 
     <form action="#" method="post">
-      <label for="field1">Field 1, jump at 5</label>
-      <input type="text" name="field1" id="field1" value="" data-autojump="5"/>
+      <label for="field1">Jumps after 3</label>
+      <input type="text" name="field1" id="field1" data-autojump="3"/>
+      <br>
+      <br>
 
-      <label for="field2">Field 2</label>
-      <input type="text" name="field2" id="field2" value="" />
+      <label for="field2">Jumps after 5</label>
+      <textarea name="field2" id="field2" value="" data-autojump="5"></textarea>
+      <br>
+      <br>
+
+      <label for="field3">Last one, jumps after 2</label>
+      <input type="text" name="field3" id="field3" data-autojump="2"/>
+
+      <input type="submit" value="Submit">
     </form>
 
 		<script>
 			$(function() {
-				$("input").autoJump();
+				$("input,textarea").autoJump();
 			});
 		</script>
 	</body>
