@@ -20,7 +20,7 @@
 
             if (currentLength === maxLength - 1) {
                 $(this).one("keyup", function() {
-                    $(this).nextAll("input,textarea").first().focus();
+                    $(this).nextAll("input,textarea,select").first().focus();
                 });
             }
         }
