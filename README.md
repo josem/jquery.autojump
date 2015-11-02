@@ -6,7 +6,7 @@ Jump automatically after certain characters in an input or textarea to the next 
 ![Demo](/demo/demo.gif)
 
 ## Download
-[Download latest version (0.1.0)](https://github.com/josem/jquery.autojump/archive/v0.1.0.zip)
+[Download latest version (0.2.0)](https://github.com/josem/jquery.autojump/archive/v0.2.0.zip)
 
 ## Usage
 
