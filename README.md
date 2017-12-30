@@ -23,10 +23,10 @@ Jump automatically after certain characters in an input or textarea to the next 
 	```
 3. Set the data attribute `autojump` to the number of characters you expect in your inputs and textareas.
 
-	```html
-  <!-- It will jump to the next field after 5 characters -->
-  <input type="text" name="field1" id="field1" value="" data-autojump="5"/>
 	```
+	<input type="text" name="field1" id="field1" data-autojump="5">
+  	```
+	
 
 4. Call the plugin:
 
